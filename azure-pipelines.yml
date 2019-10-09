@@ -14,7 +14,7 @@ variables:
   # ========================================================================
 
  # Update Azure.ResourceGroupName value with Azure resource group name.
-  Azure.ResourceGroupName: '{{myapp_user4-rg}}{{/}}'
+  Azure.ResourceGroupName: '{{myapp_user4-rg}}{{/myContainerRegistryUser4}}'
 
   # Update Azure.ServiceConnectionId value with AzureRm service endpoint.
   Azure.ServiceConnectionId: '{{ rsrcMSconnect-user4 }}'
