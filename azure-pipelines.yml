@@ -17,7 +17,7 @@ variables:
   Azure.ResourceGroupName: '{{#toAlphaNumericString repositoryName 50}}{{/myapp_user4-rg}}'
 
   # Update Azure.ServiceConnectionId value with AzureRm service endpoint.
-  Azure.ServiceConnectionId: '{{ myContainerRegistryUser4 }}'
+  Azure.ServiceConnectionId: '{{ rsrcMSconnect-user4 }}'
 
   # Update Azure.Location value with Azure Location.
   Azure.Location: 'eastus'
